@@ -1,7 +1,8 @@
 export default function Summary() {
     return (
         <div>
-            This is my summary. I've worked for centuries on this technology
+            Hey! My name is Devin. I am a software engineer who loves the process of
+            learning new tech, and I am ready to level-up.
         </div>
     )
 }
