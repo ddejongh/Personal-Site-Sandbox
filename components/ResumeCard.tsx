@@ -1,10 +1,13 @@
+import ResumeBullet from "./ResumeBullet";
+
 export default function ResumeCard() {
     return (
         <div>
-            <li>Experience 1</li>
-            <li>Experience 2</li>
-            <li>Experience 3</li>
-            <li>Experience 4</li>
+            <p>This is a summary of my experience</p>
+            <li><ResumeBullet /></li>
+            <li><ResumeBullet /></li>
+            <li><ResumeBullet /></li>
+            <li><ResumeBullet /></li>
         </div>
     )
 }

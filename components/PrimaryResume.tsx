@@ -4,8 +4,8 @@ import ResumeCard from "./ResumeCard";
 
 export default function PrimaryResume() {
   return (
-    <div className="grid grid-cols-5 gap-4">
-      <div className="inline-block col-span-2">
+    <div className="grid grid-cols-4 gap-4">
+      <div className="inline-block col-span-2 p-8">
         <div className="flow-root">
           <AboutCard />
         </div>
@@ -13,7 +13,7 @@ export default function PrimaryResume() {
           <Summary />
         </div>
       </div>
-      <div className="inline-block col-span-2">
+      <div className="inline-block col-span-2 p-8">
         <ResumeCard />
       </div>
     </div>
