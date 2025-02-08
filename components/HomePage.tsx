@@ -1,4 +1,4 @@
-import AboutCard from "./About";
+import NameCard from "./NameCard";
 import Summary from "./Summary";
 import ResumeCard from "./ResumeCard";
 import experiences from "../exp.json";
@@ -8,13 +8,13 @@ const HomePage = () => {
     <div className="grid grid-cols-4 gap-4">
       <div className="inline-block col-span-2 p-8">
         <div className="flow-root">
-          <AboutCard />
+          <NameCard />
         </div>
         <div className="flow-root">
           <Summary />
         </div>
         <div>
-          Add some images here
+          Add some icons here
         </div>
       </div>
       <div className="inline-block col-span-2 p-8">
