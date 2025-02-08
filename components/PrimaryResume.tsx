@@ -1,6 +1,7 @@
 import AboutCard from "./About";
 import Summary from "./Summary";
 import ResumeCard from "./ResumeCard";
+import experiences from "../exp.json";
 
 export default function PrimaryResume() {
   return (
@@ -14,7 +15,7 @@ export default function PrimaryResume() {
         </div>
       </div>
       <div className="inline-block col-span-2 p-8">
-        <ResumeCard />
+        <ResumeCard entry={experiences}/>
       </div>
     </div>
   );
