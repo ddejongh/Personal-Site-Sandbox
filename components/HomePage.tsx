@@ -3,7 +3,7 @@ import Summary from "./Summary";
 import ResumeCard from "./ResumeCard";
 import experiences from "../exp.json";
 
-export default function PrimaryResume() {
+const HomePage = () => {
   return (
     <div className="grid grid-cols-4 gap-4">
       <div className="inline-block col-span-2 p-8">
@@ -13,6 +13,9 @@ export default function PrimaryResume() {
         <div className="flow-root">
           <Summary />
         </div>
+        <div>
+          Add some images here
+        </div>
       </div>
       <div className="inline-block col-span-2 p-8">
         <ResumeCard entry={experiences}/>
@@ -20,3 +23,5 @@ export default function PrimaryResume() {
     </div>
   );
 }
+
+export default HomePage;
